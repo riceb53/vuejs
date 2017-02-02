@@ -12,3 +12,10 @@ var app2 = new Vue({
     message: "you loaded this page on " + new Date()
   }
 })
+
+var app3 = new Vue({
+  el: '#app-3',
+  data: {
+    seen: true
+  }
+})
