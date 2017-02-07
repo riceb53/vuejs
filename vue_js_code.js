@@ -3,7 +3,8 @@ var app = new Vue({
   el: '#app',
   data: {
     message: 'hello vue',
-    messageTwo: 'my <strong> second</strong> message'
+    messageTwo: 'my <strong> second</strong> message',
+    dynamicId: 'notBlue'
   }
 })
 
