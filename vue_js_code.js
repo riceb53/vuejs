@@ -2,7 +2,8 @@ console.log('hi');
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'hello vue'
+    message: 'hello vue',
+    messageTwo: 'my <strong> second</strong> message'
   }
 })
 
