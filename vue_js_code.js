@@ -3,6 +3,7 @@ var app = new Vue({
   el: '#app',
   data: {
     message: 'hello vue',
+    exampleMessage: 'capitalize me',
     messageTwo: 'my <strong> second</strong> message',
     dynamicId: 'notBlue',
     boolValueTrue: true,
@@ -13,6 +14,16 @@ var app = new Vue({
   methods: {
     onSubmit: function(){
       console.log('hello')
+    }
+
+  },
+  filters: {
+    capitalize: function(theMessage){
+      if (!theMessage) {
+        return ''
+      }
+      theMessage = theMessage.toString()
+      return theMessage.charAt(0).toUpperCase() + theMessage.slice(1)
     }
   }
 })
