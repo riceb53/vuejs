@@ -9,6 +9,11 @@ var app = new Vue({
     boolValueFalse: false,
     num: 3,
     urlExample: 'http://www.google.com'
+  },
+  methods: {
+    onSubmit: function(){
+      console.log('hello')
+    }
   }
 })
 

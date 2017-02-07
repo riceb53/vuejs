@@ -2,6 +2,10 @@
 hiii
 
 <div id='app'>
+<form v-on:submit.prevent='onSubmit'>
+  <input type="text" name="someText">
+  <input type="submit" name="">
+</form>
 <div>{{num + 1}}</div>
   <span v-once>{{message}}</span>
   <span v-html='messageTwo'></span>
