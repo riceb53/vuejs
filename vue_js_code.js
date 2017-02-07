@@ -4,7 +4,9 @@ var app = new Vue({
   data: {
     message: 'hello vue',
     messageTwo: 'my <strong> second</strong> message',
-    dynamicId: 'notBlue'
+    dynamicId: 'notBlue',
+    boolValueTrue: true,
+    boolValueFalse: false
   }
 })
 
