@@ -7,7 +7,8 @@ var app = new Vue({
     dynamicId: 'notBlue',
     boolValueTrue: true,
     boolValueFalse: false,
-    num: 3
+    num: 3,
+    urlExample: 'http://www.google.com'
   }
 })
 
