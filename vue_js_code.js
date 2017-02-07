@@ -6,7 +6,8 @@ var app = new Vue({
     messageTwo: 'my <strong> second</strong> message',
     dynamicId: 'notBlue',
     boolValueTrue: true,
-    boolValueFalse: false
+    boolValueFalse: false,
+    num: 3
   }
 })
 
