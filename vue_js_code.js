@@ -98,7 +98,7 @@ var computedExample = new Vue({
   data: {
     message: 'here I am'
   },
-// computed is similar to 'methods, but is cached and not rerun unless dependents (in this case the variable message) change'
+// computed is similar to 'methods', but is cached and not rerun unless dependents (in this case the variable message) change
   computed: {
     reverseMessage: function () {
       return this.message.split('').reverse().join('')
