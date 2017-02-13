@@ -13,6 +13,7 @@ hiii
   <div v-bind:id='dynamicId'>this div has a dynamic id</div>
   <button v-bind:disabled='boolValueTrue'>This is a button that you can not click on</button>
   <button v-bind:disabled='boolValueFalse'>This is a button you can click on</button>
+  <button :disabled='boolValueFalse'>This is a button you can click on and uses shorthand syntax</button>
   <a v-bind:href='urlExample'>This is a dynamic url</a>
 </div>
 
@@ -38,6 +39,7 @@ hiii
 
 <div id="app-5">
 <button v-on:click="reverseMessage">reverse the message below</button>
+<button @click="reverseMessage">reverse the message below (uses shorthand syntax)</button>
   {{message}}
 </div>
 
