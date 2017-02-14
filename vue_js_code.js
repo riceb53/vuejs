@@ -105,3 +105,11 @@ var computedExample = new Vue({
     }
   }
 })
+
+var classBinding = new Vue({
+  el: '#bindExample',
+  data: {
+    isActive: true,
+    hasError: false
+  }
+})
