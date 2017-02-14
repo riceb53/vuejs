@@ -43,8 +43,8 @@ hiii
 
 <div id="app-4">
   <ol>
-    <li v-for="todo in todos">
-    {{todo.text}}
+    <li v-for="(todo, index) in todos">
+    {{todo.text}} {{index}} {{otherMessage}}
     </li>
   </ol>
 </div>

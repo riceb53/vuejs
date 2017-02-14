@@ -47,6 +47,7 @@ var app3 = new Vue({
 var app4 = new Vue({
   el: '#app-4',
   data: {
+    otherMessage: 'Random comment',
     todos: [
       {text: "number1"},
       {text: "number2"},
