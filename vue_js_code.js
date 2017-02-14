@@ -130,3 +130,12 @@ var bindToComputed = new Vue({
     }
   }
 })
+
+
+var arraySyntax = new Vue({
+  el: '#arraySyntax',
+  data: {
+    activeClass: 'active',
+    errorClass: 'text-danger'
+  }
+})
