@@ -136,6 +136,7 @@ var arraySyntax = new Vue({
   el: '#arraySyntax',
   data: {
     activeClass: 'active',
+    isActive: true,
     errorClass: 'text-danger'
   }
 })
