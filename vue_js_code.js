@@ -113,3 +113,20 @@ var classBinding = new Vue({
     hasError: false
   }
 })
+
+
+var bindToComputed = new Vue({
+  el: '#computeBind',
+  data: {
+    isActive: true,
+    error: null
+  },
+  computed: {
+    classObject: function() {
+      return {
+        active: this.isActive && !this.hasError,
+        'text-danger': this.error && this.error.type === 'fatal'
+      }
+    }
+  }
+})
