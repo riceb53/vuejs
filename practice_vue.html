@@ -66,7 +66,15 @@ hiii
   Should have the active class but not text-danger. These classes were computed
 </div>
 
-<div id="arraySyntax" v-bind:class="[errorClass, ActiveClass]">This will add classes to the div based on an array given to v-bind </div>
-<div id="arraySyntax" v-bind:class="[errorClass, {active: isActive}]">This will add classes to the div based on an array given to v-bind that also uses the object syntax</div>
+<div id="arraySyntax" v-bind:class="[errorClass, activeClass]">This will add classes to the div based on an array given to v-bind
+<my-component class='in-html'></my-component>
+</div>
+<div id="arraySyntax" v-bind:class="[errorClass, {active: isActive}]">This will add classes to the div based on an array given to v-bind that also uses the object syntax
+</div>
+
+
+
+
+
 
 <script src="vue_js_code.js"></script>

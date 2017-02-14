@@ -131,6 +131,9 @@ var bindToComputed = new Vue({
   }
 })
 
+Vue.component('my-component',{
+  template: '<p class="in-js">will have classes given in both html and js</p>'
+})
 
 var arraySyntax = new Vue({
   el: '#arraySyntax',
@@ -140,3 +143,6 @@ var arraySyntax = new Vue({
     errorClass: 'text-danger'
   }
 })
+
+
+
