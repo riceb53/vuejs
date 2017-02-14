@@ -151,6 +151,11 @@ var editStyle = new Vue({
       color: 'red',
       fontSize: 30,
       backgroundColor: 'blue'
+    },
+    secondStyleObject:{
+      color: 'green',
+      fontSize: 10,
+      backgroundColor: 'grey'
     }
   }
 })
