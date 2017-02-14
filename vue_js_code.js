@@ -144,5 +144,14 @@ var arraySyntax = new Vue({
   }
 })
 
+var editStyle = new Vue({
+  el: '#editStyle',
+  data: {
+    activeColor: 'red',
+    fontSize: 30,
+    backgroundColor: 'blue'
+  }
+})
+
 
 
