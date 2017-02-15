@@ -213,6 +213,14 @@ var eventHandling = new Vue({
     },
     sayWord: function(word) {
       alert('hi ' + word)
+    },
+    warning: function(message, event){
+      console.log('hit warning')
+      console.log(event)
+      console.log(message)
+      if (event) {
+        alert(message)
+      }
     }
   }
 })
