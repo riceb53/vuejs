@@ -237,9 +237,15 @@ Vue.component('some-row', {
   template: '<tr> here is some info </tr>'
 })
 
+
 var Local = {
   template: '<p>this is a local component</p>'
 }
+
+Vue.component('props-example', {
+  props: ['message'],
+  template: '<p>{{ message }} from the other side</p>'
+})
 
 var componentPractice = new Vue({
   el: '#component-practice',
