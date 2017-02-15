@@ -57,8 +57,8 @@ hiii
   </ol>
 
   <ol>
-    <li v-for="theValue in person">
-      {{ theValue }}
+    <li v-for="(theValue, theKey, theIndex) in person">
+      {{ theValue }} - {{ theKey }} - {{theIndex}}
     </li>
   </ol>
 </div>
