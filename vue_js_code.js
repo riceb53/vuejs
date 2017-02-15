@@ -204,7 +204,8 @@ var editStyle = new Vue({
 var eventHandling = new Vue({
   el: '#eventHandle',
   data: {
-    counter: 0
+    counter: 0,
+    message: ""
 
   },
   methods: {
