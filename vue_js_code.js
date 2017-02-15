@@ -243,7 +243,9 @@ var Local = {
 }
 
 Vue.component('props-example', {
-  props: ['message'],
+  props: {
+    message: String
+  },
   template: '<p>{{ message }} from the other side</p>'
 })
 
