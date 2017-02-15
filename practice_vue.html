@@ -131,7 +131,12 @@ hiii
   </table>
   <input v-model='parentMessage'>
   <props-example v-bind:message='parentMessage'></props-example>
+</div>
 
+<div id="counter-event-example">
+  <p>{{ total }}</p>
+  <button-counter v-on:increment="incrementTotal"></button-counter>
+  <button-counter v-on:increment="incrementTotal"></button-counter>
 </div>
 
 <script src="vue_js_code.js"></script>
