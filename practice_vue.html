@@ -67,7 +67,7 @@ hiii
     </li>
   </ul>
 
-  <div v-for='todo in todos' v-if='!todo.complete'>
+  <div v-for='todo in todos' v-if='!todo.complete' :key='todo.id'>
   {{ todo.text }}
   </div>
 </div>

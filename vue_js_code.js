@@ -51,15 +51,18 @@ var app4 = new Vue({
     todos: [
       {
         text: "number1",
-        complete: true
+        complete: true,
+        id: 1
       },
       {
         text: "number2",
-        complete: false
+        complete: false,
+        id: 2
       },
       {
         text: "number3",
-        complete: true
+        complete: true,
+        id: 3
       }
     ],
     person: {
