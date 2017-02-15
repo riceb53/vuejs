@@ -112,13 +112,13 @@ hiii
 <div id="editStyle" v-bind:style="[styleObject,secondStyleObject]">Here is some styled text</div>
 <br><br>
 <div id="eventHandle">
-<button v-on:click='counter ++'>Add one to counter</button>
-<button v-on:click='welcome'>Say hello</button>
-<button v-on:click="sayWord('yes')">Say yes</button>
-<button v-on:click="sayWord('maybe')">Say maybe</button>
-<button v-on:click="warning('This form cannot be submitted.', $event)">Make a warning</button>
-<input v-on:keyup.space='submitted'>
-  {{counter}}
+  <button v-on:click='counter ++'>Add one to counter</button>
+    {{counter}}
+  <button v-on:click='welcome'>Say hello</button>
+  <button v-on:click="sayWord('yes')">Say yes</button>
+  <button v-on:click="sayWord('maybe')">Say maybe</button>
+  <button v-on:click="warning('This form cannot be submitted.', $event)">Make a warning</button>
+  <input v-on:keyup.space='submitted'>
 </div>
 
 
