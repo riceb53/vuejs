@@ -210,6 +210,9 @@ var eventHandling = new Vue({
   methods: {
     welcome: function(event) {
       alert('hey there')
+    },
+    sayWord: function(word) {
+      alert('hi ' + word)
     }
   }
 })
