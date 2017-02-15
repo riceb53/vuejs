@@ -228,3 +228,18 @@ var eventHandling = new Vue({
     }
   }
 })
+
+Vue.component('practice-component', {
+  template: '<p>this is a basic component</p>'
+})
+
+var Local = {
+  template: '<p>this is a local component</p>'
+}
+
+var componentPractice = new Vue({
+  el: '#component-practice',
+  components: {
+    'the-local-template': Local
+  }
+})
