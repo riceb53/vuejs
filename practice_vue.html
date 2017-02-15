@@ -70,6 +70,8 @@ hiii
   <div v-for='todo in todos' v-if='!todo.complete' :key='todo.id'>
   {{ todo.text }}
   </div>
+  <div v-for='number in even(numbers)'>{{ number }}</div>
+  <div v-for='number in oddNumbers'>{{ number }}</div>
 </div>
 
 <div id="app-5">

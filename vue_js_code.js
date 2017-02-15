@@ -69,7 +69,29 @@ var app4 = new Vue({
       firstName: "Brian",
       lastName: "Rice",
       age: 'mystery'
+    },
+    numbers: [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  methods: {
+    even: function(theNumbers) {
+      return theNumbers.filter(function(number){
+        return number % 2 === 0
+      })
     }
+  },
+  computed: {
+   oddNumbers: function() {
+    return this.numbers.filter(function(number){
+      return number % 2 === 1
+    })
+   }
   }
 })
 
