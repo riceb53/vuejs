@@ -52,7 +52,12 @@ var app4 = new Vue({
       {text: "number1"},
       {text: "number2"},
       {text: "number3"}
-    ]
+    ],
+    person: {
+      firstName: "Brian",
+      lastName: "Rice",
+      age: 'mystery'
+    }
   }
 })
 
@@ -161,6 +166,4 @@ var editStyle = new Vue({
     }
   }
 })
-
-
 
