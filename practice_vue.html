@@ -117,7 +117,7 @@ hiii
 <button v-on:click="sayWord('yes')">Say yes</button>
 <button v-on:click="sayWord('maybe')">Say maybe</button>
 <button v-on:click="warning('This form cannot be submitted.', $event)">Make a warning</button>
-
+<input v-on:keyup.space='submitted'>
   {{counter}}
 </div>
 

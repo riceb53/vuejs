@@ -221,6 +221,9 @@ var eventHandling = new Vue({
       if (event) {
         alert(message)
       }
+    },
+    submitted: function(){
+      console.log('you submitted it')
     }
   }
 })
