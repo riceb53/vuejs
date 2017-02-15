@@ -233,6 +233,10 @@ Vue.component('practice-component', {
   template: '<p>this is a basic component</p>'
 })
 
+Vue.component('some-row', {
+  template: '<tr> here is some info </tr>'
+})
+
 var Local = {
   template: '<p>this is a local component</p>'
 }
