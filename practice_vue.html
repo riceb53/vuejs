@@ -129,7 +129,9 @@ hiii
   <table>
     <tr is='some-row'></tr>
   </table>
-  <props-example message='hello'></props-example>
+  <input v-model='parentMessage'>
+  <props-example v-bind:message='parentMessage'></props-example>
+
 </div>
 
 <script src="vue_js_code.js"></script>

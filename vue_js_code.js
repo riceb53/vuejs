@@ -249,6 +249,9 @@ Vue.component('props-example', {
 
 var componentPractice = new Vue({
   el: '#component-practice',
+  data: {
+    parentMessage: ""
+  },
   components: {
     'the-local-template': Local
   }
