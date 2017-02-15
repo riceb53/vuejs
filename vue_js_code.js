@@ -49,9 +49,18 @@ var app4 = new Vue({
   data: {
     otherMessage: 'Random comment',
     todos: [
-      {text: "number1"},
-      {text: "number2"},
-      {text: "number3"}
+      {
+        text: "number1",
+        complete: true
+      },
+      {
+        text: "number2",
+        complete: false
+      },
+      {
+        text: "number3",
+        complete: true
+      }
     ],
     person: {
       firstName: "Brian",

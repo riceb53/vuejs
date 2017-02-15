@@ -66,6 +66,10 @@ hiii
       {{n}}
     </li>
   </ul>
+
+  <div v-for='todo in todos' v-if='!todo.complete'>
+  {{ todo.text }}
+  </div>
 </div>
 
 <div id="app-5">
