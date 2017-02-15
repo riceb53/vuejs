@@ -110,8 +110,11 @@ hiii
 </div>
 
 <div id="editStyle" v-bind:style="[styleObject,secondStyleObject]">Here is some styled text</div>
-
-
+<br><br>
+<div id="eventHandle">
+<button v-on:click='counter ++'>Add one to counter</button>
+  {{counter}}
+</div>
 
 
 <script src="vue_js_code.js"></script>
