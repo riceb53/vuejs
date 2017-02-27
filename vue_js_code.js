@@ -20,7 +20,7 @@ var app = new Vue({
   filters: {
     capitalize: function(theMessage){
       if (!theMessage) {
-        return ''
+        return '';
       }
       theMessage = theMessage.toString()
       return theMessage.charAt(0).toUpperCase() + theMessage.slice(1)
